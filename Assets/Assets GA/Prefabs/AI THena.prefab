@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1798167017063458304}
-  - component: {fileID: 1706325329750931018}
   m_Layer: 0
   m_Name: AI THena
   m_TagString: Untagged
@@ -33,18 +32,6 @@ Transform:
   - {fileID: 7011668872647980603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1706325329750931018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3943872960824457646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a38c194aeaa424947a0cba81cee62a8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7405266672516714960
 PrefabInstance:
   m_ObjectHideFlags: 0
