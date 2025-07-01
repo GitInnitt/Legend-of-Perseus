@@ -22441,7 +22441,6 @@ GameObject:
   - component: {fileID: 2083807533}
   - component: {fileID: 2083807532}
   - component: {fileID: 2083807531}
-  - component: {fileID: 2083807534}
   m_Layer: 0
   m_Name: Platform Raise1 (1)
   m_TagString: Untagged
@@ -22536,20 +22535,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083807529}
   m_Mesh: {fileID: -939061152623264921, guid: c577fed2752c20f4a9326aa2fd893987, type: 3}
---- !u!114 &2083807534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083807529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50077bc5161d8924c87139e05c29a67c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: 0, y: 0, z: -0.0059}
-  riseSpeed: 2
 --- !u!1001 &2083828872
 PrefabInstance:
   m_ObjectHideFlags: 0
