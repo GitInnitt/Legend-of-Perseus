@@ -4880,6 +4880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623559448}
+  - component: {fileID: 623559449}
   m_Layer: 0
   m_Name: Medusa
   m_TagString: Untagged
@@ -4904,6 +4905,22 @@ Transform:
   - {fileID: 1813039343}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &623559449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623559447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd01be5cc75a8f43b025c2e7bd37127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodExplosionEffect: {fileID: 4250298743439401460, guid: 184c47b8b8e4c814d8241a901f177515,
+    type: 3}
+  shakeDuration: 0.3
+  shakeMagnitude: 0.2
 --- !u!1001 &627513222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9773,7 +9790,7 @@ PrefabInstance:
     - target: {fileID: 3689823504834450509, guid: 30add2022cdcd6d43b8b026b421d1ceb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 164.6
+      value: 161.5
       objectReference: {fileID: 0}
     - target: {fileID: 3689823504834450509, guid: 30add2022cdcd6d43b8b026b421d1ceb,
         type: 3}
@@ -9783,7 +9800,7 @@ PrefabInstance:
     - target: {fileID: 3689823504834450509, guid: 30add2022cdcd6d43b8b026b421d1ceb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -203.9
+      value: -144.5
       objectReference: {fileID: 0}
     - target: {fileID: 3689823504834450509, guid: 30add2022cdcd6d43b8b026b421d1ceb,
         type: 3}
